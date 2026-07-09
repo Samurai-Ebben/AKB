@@ -1,0 +1,118 @@
+{
+  "brandHomeLabel": "AKB Service home",
+  "nav": {
+    "label": "Primary navigation",
+    "home": "Home",
+    "services": "Services",
+    "work": "Our Work",
+    "about": "About Us"
+  },
+  "language": {
+    "label": "Select language",
+    "english": "Switch to English",
+    "german": "Switch to German"
+  },
+  "hero": {
+    "eyebrow": "Property services when you need them",
+    "title": "AKB Service",
+    "description": "Reliable maintenance, installation, clearance, and transport services\u2014all from one trusted team.",
+    "button": "Explore our services"
+  },
+  "services": {
+    "eyebrow": "What we do",
+    "title": "Our Services",
+    "intro": "Practical support for your home, property, and everyday projects.",
+    "imageAlt": "{{service}} work by AKB Service",
+    "items": {
+      "maintenance": {
+        "title": "Property Maintenance",
+        "description": "Dependable day-to-day care to keep your property clean, safe, and well maintained."
+      },
+      "stairwell": {
+        "title": "Stairwell Cleaning",
+        "description": "Thorough cleaning for tidy and welcoming communal areas."
+      },
+      "garden": {
+        "title": "Garden Maintenance",
+        "description": "Regular care to keep gardens and outdoor spaces neat and attractive."
+      },
+      "clearance": {
+        "title": "Clear-Outs and Property Clearance",
+        "description": "Efficient clearing of apartments, houses, basements, and other spaces."
+      },
+      "assembly": {
+        "title": "Furniture and Kitchen Assembly",
+        "description": "Careful assembly and installation of furniture and kitchen units."
+      },
+      "flooring": {
+        "title": "Flooring Installation",
+        "description": "Professional installation of laminate, PVC, and carpet flooring."
+      },
+      "drywall": {
+        "title": "Drywall Services",
+        "description": "Practical drywall solutions for renovations and interior improvements."
+      },
+      "demolition": {
+        "title": "Minor Non-Structural Demolition",
+        "description": "Controlled removal work that does not affect the building's structural integrity."
+      },
+      "transport": {
+        "title": "Transport Services up to 3.5 Tonnes",
+        "description": "Reliable transport for furniture, equipment, and other goods."
+      },
+      "technical": {
+        "title": "Lighting, Network, and Camera Installation",
+        "description": "Installation of lamps, LED lighting, LAN connections, and camera systems."
+      }
+    }
+  },
+  "work": {
+    "eyebrow": "Recent projects",
+    "title": "Our Work",
+    "intro": "A selection of property, construction, clearance, and technical work completed by the AKB Service team.",
+    "selected": {
+      "title": "Selected Projects",
+      "intro": "Construction, outdoor, demolition, and technical work."
+    },
+    "beforeAfter": {
+      "title": "Before & After",
+      "intro": "Real clearance results shown in side-by-side comparisons.",
+      "label": "Before & After"
+    },
+    "gallery": {
+      "hint": "Swipe or use the arrows to explore",
+      "previous": "Show previous images",
+      "next": "Show next images"
+    },
+    "projects": {
+      "kitchen": { "title": "Kitchen and Hallway Clearance", "alt": "Before-and-after comparison of a kitchen and hallway clearance" },
+      "livingRoom": { "title": "Living Room Clearance", "alt": "Before-and-after comparison of a living room clearance" },
+      "hallway": { "title": "Room and Hallway Clearance", "alt": "Before-and-after comparison of a room and hallway clearance" },
+      "bathroom": { "title": "Bathroom Clearance", "alt": "Before-and-after comparison of a bathroom clearance" },
+      "bedroom": { "title": "Bedroom Clearance", "alt": "Before-and-after comparison of a bedroom clearance" },
+      "bathroomTwo": { "title": "Bathroom Clear-Out", "alt": "Before-and-after comparison of a bathroom clear-out" },
+      "livingSpace": { "title": "Living Space Clearance", "alt": "Before-and-after comparison of a living space clearance" },
+      "fullRoom": { "title": "Full Room Clearance", "alt": "Before-and-after comparison of a full room clearance" },
+      "bedroomTwo": { "title": "Bedroom Clear-Out", "alt": "Before-and-after comparison of a bedroom clear-out" },
+      "timber": { "title": "Timber Construction", "alt": "Timber garden building during construction" },
+      "decking": { "title": "Balcony Decking", "alt": "Completed timber decking on a balcony" },
+      "demolition": { "title": "Controlled Demolition", "alt": "Interior space during controlled non-structural demolition work" },
+      "technical": { "title": "Technical Installation", "alt": "Technical equipment and cabling being installed at ceiling level" }
+    }
+  },
+  "about": {
+    "eyebrow": "About AKB",
+    "title": "One Team for Every Job",
+    "body": "AKB Service brings property care, assembly, clearance, and transport support together in one convenient service. With locations in Munich and Chemnitz, Saxony, we are well positioned to serve customers in both regions. We focus on practical solutions and straightforward communication from the first enquiry to the completed job.",
+    "locations": "Our Locations",
+    "munich": "Munich",
+    "munichRegion": "Bavaria",
+    "chemnitz": "Chemnitz",
+    "chemnitzRegion": "Saxony"
+  },
+  "footer": {
+    "rights": "\u00a9 {{year}} AKB Service. All rights reserved.",
+    "instagram": "Instagram",
+    "myHammer": "MyHammer"
+  }
+}

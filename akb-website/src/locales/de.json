@@ -1,0 +1,118 @@
+{
+  "brandHomeLabel": "AKB Service Startseite",
+  "nav": {
+    "label": "Hauptnavigation",
+    "home": "Startseite",
+    "services": "Leistungen",
+    "work": "Unsere Arbeit",
+    "about": "\u00dcber uns"
+  },
+  "language": {
+    "label": "Sprache ausw\u00e4hlen",
+    "english": "Zur englischen Sprache wechseln",
+    "german": "Zur deutschen Sprache wechseln"
+  },
+  "hero": {
+    "eyebrow": "Zuverl\u00e4ssiger Service f\u00fcr Ihre Immobilie",
+    "title": "AKB Service",
+    "description": "Hausmeister-, Montage-, Entr\u00fcmpelungs- und Transportleistungen aus einer Hand.",
+    "button": "Unsere Leistungen entdecken"
+  },
+  "services": {
+    "eyebrow": "Was wir leisten",
+    "title": "Unsere Leistungen",
+    "intro": "Praktische und zuverl\u00e4ssige Unterst\u00fctzung f\u00fcr Ihre Immobilie und Ihre Projekte.",
+    "imageAlt": "Arbeiten im Bereich {{service}} von AKB Service",
+    "items": {
+      "maintenance": {
+        "title": "Hausmeisterservice",
+        "description": "Zuverl\u00e4ssige Betreuung, damit Ihre Immobilie sauber, sicher und gepflegt bleibt."
+      },
+      "stairwell": {
+        "title": "Treppenhausreinigung",
+        "description": "Gr\u00fcndliche Reinigung f\u00fcr saubere und einladende Gemeinschaftsbereiche."
+      },
+      "garden": {
+        "title": "Gartenpflege",
+        "description": "Regelm\u00e4\u00dfige Pflege f\u00fcr ordentliche und ansprechende G\u00e4rten und Au\u00dfenanlagen."
+      },
+      "clearance": {
+        "title": "Entr\u00fcmpelungen und Wohnungsaufl\u00f6sungen",
+        "description": "Effiziente R\u00e4umung von Wohnungen, H\u00e4usern, Kellern und weiteren Fl\u00e4chen."
+      },
+      "assembly": {
+        "title": "M\u00f6bel- und K\u00fcchenmontage",
+        "description": "Sorgf\u00e4ltige Montage und fachgerechter Aufbau von M\u00f6beln und K\u00fcchenelementen."
+      },
+      "flooring": {
+        "title": "Bodenverlegung",
+        "description": "Saubere Verlegung von Laminat-, PVC- und Teppichb\u00f6den."
+      },
+      "drywall": {
+        "title": "Trockenbauarbeiten",
+        "description": "Praktische Trockenbaul\u00f6sungen f\u00fcr Renovierungen und den Innenausbau."
+      },
+      "demolition": {
+        "title": "Kleine Abbrucharbeiten",
+        "description": "Kontrollierte Abbrucharbeiten ohne Eingriff in die Statik des Geb\u00e4udes."
+      },
+      "transport": {
+        "title": "Transporte bis 3,5 Tonnen",
+        "description": "Zuverl\u00e4ssiger Transport von M\u00f6beln, Ger\u00e4ten und weiteren G\u00fctern."
+      },
+      "technical": {
+        "title": "Beleuchtung, Netzwerk und Kameramontage",
+        "description": "Montage von Lampen, LED-Beleuchtung, LAN-Verbindungen und Kamerasystemen."
+      }
+    }
+  },
+  "work": {
+    "eyebrow": "Aktuelle Projekte",
+    "title": "Unsere Arbeit",
+    "intro": "Eine Auswahl unserer Arbeiten aus den Bereichen Immobilienservice, Bau, Entr\u00fcmpelung und Technik.",
+    "selected": {
+      "title": "Ausgew\u00e4hlte Projekte",
+      "intro": "Bau-, Au\u00dfen-, Abbruch- und technische Arbeiten."
+    },
+    "beforeAfter": {
+      "title": "Vorher & Nachher",
+      "intro": "Echte Ergebnisse unserer Entr\u00fcmpelungsarbeiten im direkten Vergleich.",
+      "label": "Vorher & Nachher"
+    },
+    "gallery": {
+      "hint": "Wischen oder mit den Pfeilen weitere Bilder ansehen",
+      "previous": "Vorherige Bilder anzeigen",
+      "next": "N\u00e4chste Bilder anzeigen"
+    },
+    "projects": {
+      "kitchen": { "title": "K\u00fcchen- und Flurr\u00e4umung", "alt": "Vorher-Nachher-Vergleich einer K\u00fcchen- und Flurr\u00e4umung" },
+      "livingRoom": { "title": "Wohnzimmerr\u00e4umung", "alt": "Vorher-Nachher-Vergleich einer Wohnzimmerr\u00e4umung" },
+      "hallway": { "title": "Zimmer- und Flurr\u00e4umung", "alt": "Vorher-Nachher-Vergleich einer Zimmer- und Flurr\u00e4umung" },
+      "bathroom": { "title": "Badezimmerr\u00e4umung", "alt": "Vorher-Nachher-Vergleich einer Badezimmerr\u00e4umung" },
+      "bedroom": { "title": "Schlafzimmerr\u00e4umung", "alt": "Vorher-Nachher-Vergleich einer Schlafzimmerr\u00e4umung" },
+      "bathroomTwo": { "title": "Badezimmerentr\u00fcmpelung", "alt": "Vorher-Nachher-Vergleich einer Badezimmerentr\u00fcmpelung" },
+      "livingSpace": { "title": "Wohnraumr\u00e4umung", "alt": "Vorher-Nachher-Vergleich einer Wohnraumr\u00e4umung" },
+      "fullRoom": { "title": "Komplette Zimmerr\u00e4umung", "alt": "Vorher-Nachher-Vergleich einer kompletten Zimmerr\u00e4umung" },
+      "bedroomTwo": { "title": "Schlafzimmerentr\u00fcmpelung", "alt": "Vorher-Nachher-Vergleich einer Schlafzimmerentr\u00fcmpelung" },
+      "timber": { "title": "Holzbau", "alt": "Gartenhaus aus Holz w\u00e4hrend des Aufbaus" },
+      "decking": { "title": "Balkonbelag", "alt": "Fertiggestellter Holzbelag auf einem Balkon" },
+      "demolition": { "title": "Kontrollierter Abbruch", "alt": "Innenraum w\u00e4hrend kontrollierter Abbrucharbeiten ohne Statikeingriff" },
+      "technical": { "title": "Technische Installation", "alt": "Montage technischer Ger\u00e4te und Verkabelung im Deckenbereich" }
+    }
+  },
+  "about": {
+    "eyebrow": "\u00dcber AKB",
+    "title": "Ein Team f\u00fcr jede Aufgabe",
+    "body": "AKB Service vereint Immobilienpflege, Montage, Entr\u00fcmpelung und Transport in einem vielseitigen Service. Mit Standorten in M\u00fcnchen und Chemnitz, Sachsen, sind wir in beiden Regionen f\u00fcr unsere Kunden da. Wir setzen auf praktische L\u00f6sungen und eine klare Kommunikation von der ersten Anfrage bis zum Abschluss des Auftrags.",
+    "locations": "Unsere Standorte",
+    "munich": "M\u00fcnchen",
+    "munichRegion": "Bayern",
+    "chemnitz": "Chemnitz",
+    "chemnitzRegion": "Sachsen"
+  },
+  "footer": {
+    "rights": "\u00a9 {{year}} AKB Service. Alle Rechte vorbehalten.",
+    "instagram": "Instagram",
+    "myHammer": "MyHammer"
+  }
+}
