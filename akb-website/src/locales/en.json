@@ -100,6 +100,23 @@
       "technical": { "title": "Technical Installation", "alt": "Technical equipment and cabling being installed at ceiling level" }
     }
   },
+  "why": {
+  "eyebrow": "Why choose AKB Service",
+  "title": "Reliable help for your property, home, and projects",
+  "intro": "From small repairs to complete clearances, we combine practical experience with clean communication and dependable service.",
+  "items": {
+    "reliable": {
+      "title": "One team for many everyday jobs",
+      "description": "You do not need to coordinate several different providers. AKB Service supports you with maintenance, cleaning, garden care, assembly, transport, and more from one reliable contact.",
+      "alt": "Clean and organized room after property clearance"
+    },
+    "flexible": {
+      "title": "Flexible, professional, and ready when you need us",
+      "description": "Whether it is a planned project or urgent support, we work carefully, arrive prepared, and focus on practical solutions that save you time and stress.",
+      "alt": "Technical installation work completed by AKB Service"
+      }
+    }
+  },
   "about": {
     "eyebrow": "About AKB",
     "title": "One Team for Every Job",

@@ -5,7 +5,8 @@ import Footer from './components/Footer'
 import Header from './components/Header'
 import Hero from './components/Hero'
 import ServicesSection from './components/ServicesSection'
-import WorkSection from './components/WorkSection'
+// import WorkSection from './components/WorkSection'
+import WhyChooseUsSection from './components/WhyChooseUs'
 
 function App() {
   const { t, i18n } = useTranslation()
@@ -18,7 +19,8 @@ function App() {
       <main>
         <Hero t={t} />
         <ServicesSection t={t} />
-        <WorkSection t={t} />
+        {/* <WorkSection t={t} /> */}
+        <WhyChooseUsSection t={t} />
         <AboutSection t={t} />
       </main>
 

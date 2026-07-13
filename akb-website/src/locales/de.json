@@ -100,6 +100,23 @@
       "technical": { "title": "Technische Installation", "alt": "Montage technischer Ger\u00e4te und Verkabelung im Deckenbereich" }
     }
   },
+  "why": {
+  "eyebrow": "Warum AKB Service",
+  "title": "Zuverlässige Unterstützung für Immobilie, Zuhause und Projekte",
+  "intro": "Von kleinen Reparaturen bis zu kompletten Wohnungsauflösungen verbinden wir praktische Erfahrung mit klarer Kommunikation und zuverlässigem Service.",
+  "items": {
+    "reliable": {
+      "title": "Ein Team für viele Aufgaben",
+      "description": "Sie müssen nicht mehrere Anbieter koordinieren. AKB Service unterstützt Sie bei Hausmeisterservice, Reinigung, Gartenpflege, Montage, Transport und mehr aus einer Hand.",
+      "alt": "Sauberer und organisierter Raum nach einer Wohnungsauflösung"
+    },
+    "flexible": {
+      "title": "Flexibel, professionell und einsatzbereit",
+      "description": "Ob geplantes Projekt oder kurzfristige Unterstützung: Wir arbeiten sorgfältig, kommen vorbereitet und konzentrieren uns auf praktische Lösungen, die Zeit und Stress sparen.",
+      "alt": "Technische Installation durch AKB Service"
+      }
+    }
+  },
   "about": {
     "eyebrow": "\u00dcber AKB",
     "title": "Ein Team f\u00fcr jede Aufgabe",
