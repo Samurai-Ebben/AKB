@@ -211,14 +211,6 @@ main section {
   border-radius: 0.65rem;
 }
 
-.service-card-image {
-  display: block;
-  width: 100%;
-  aspect-ratio: 16 / 9;
-  object-fit: cover;
-  transition: transform 260ms ease;
-}
-
 .service-card.has-image:hover .service-card-image {
   transform: scale(1.025);
 }
@@ -237,6 +229,19 @@ main section {
   margin: 0;
   color: #52616d;
   line-height: 1.65;
+}
+
+.service-icon {
+  display: grid;
+  width: 3.4rem;
+  height: 3.4rem;
+  margin-bottom: 1.25rem;
+  place-items: center;
+  color: var(--color-white);
+  background:
+    linear-gradient(135deg, var(--color-primary), var(--color-primary-dark));
+  border-radius: 50%;
+  box-shadow: 0 12px 24px rgba(39, 152, 212, 0.22);
 }
 
 /* Work gallery */
@@ -433,7 +438,7 @@ main section {
 
 .why-grid {
   display: grid;
-  gap: 1.5rem;
+  gap: 1.2rem;
 }
 
 .why-card {
@@ -441,7 +446,7 @@ main section {
   grid-template-columns: minmax(0, 0.95fr) minmax(0, 1.05fr);
   overflow: hidden;
   background-color: #252a30;
-  border: 1px solid #49535c;
+  /* border: 1px solid #49535c; */
   border-radius: 0.9rem;
 }
 
