@@ -1,4 +1,6 @@
 import SectionHeading from './SectionHeading'
+import balconyDecking from '../assets/work/balcony-decking.jpeg'
+import technicalInstallation from '../assets/work/technical-installation.jpeg'
 
 function WhyChooseUsSection({ t }) {
   return (
@@ -11,7 +13,7 @@ function WhyChooseUsSection({ t }) {
         /><div className="why-grid">
           <article className="why-card">
             <img
-              src="src/assets/work/balcony-decking.jpeg"
+              src={balconyDecking}
               alt={t('why.items.reliable.alt')}
             />
 
@@ -23,7 +25,7 @@ function WhyChooseUsSection({ t }) {
 
           <article className="why-card why-card-reversed">
             <img
-              src="/src/assets/work/technical-installation.jpeg"
+              src={technicalInstallation}
               alt={t('why.items.flexible.alt')}
             />
 
