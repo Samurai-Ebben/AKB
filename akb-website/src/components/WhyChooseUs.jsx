@@ -1,8 +1,46 @@
+import { useEffect, useState } from 'react'
 import SectionHeading from './SectionHeading'
 import balconyDecking from '../assets/work/balcony-decking.jpeg'
 import technicalInstallation from '../assets/work/technical-installation.jpeg'
 
+import timberConstruction from '../assets/work/timber-construction.jpeg'
+import houseBuilding from '../assets/work/hus_built.jpeg'
+
+const whyImageGroups = {
+  reliable: [balconyDecking, houseBuilding],
+  flexible: [technicalInstallation, timberConstruction],
+}
+
+function FadingImage({ images, alt }) {
+  const [activeIndex, setActiveIndex] = useState(0)
+
+  useEffect(() => {
+    const intervalId = window.setInterval(() => {
+      setActiveIndex((currentIndex) => (currentIndex + 1) % images.length)
+    }, 6200)
+
+    return () => {
+      window.clearInterval(intervalId)
+    }
+  }, [images.length])
+
+  return (
+    <div className="fading-image">
+      {images.map((image, index) => (
+        <img
+          key={image}
+          src={image}
+          alt={index === activeIndex ? alt : ''}
+          className={index === activeIndex ? 'active' : ''}
+          aria-hidden={index !== activeIndex}
+        />
+      ))}
+    </div>
+  )
+}
+
 function WhyChooseUsSection({ t }) {
+
   return (
     <section id="work" className="why-section">
       <div className="section-inner">
@@ -12,8 +50,8 @@ function WhyChooseUsSection({ t }) {
           intro={t('why.intro')}
         /><div className="why-grid">
           <article className="why-card">
-            <img
-              src={balconyDecking}
+            <FadingImage
+              images={whyImageGroups.reliable}
               alt={t('why.items.reliable.alt')}
             />
 
@@ -24,8 +62,8 @@ function WhyChooseUsSection({ t }) {
           </article>
 
           <article className="why-card why-card-reversed">
-            <img
-              src={technicalInstallation}
+            <FadingImage
+              images={whyImageGroups.flexible}
               alt={t('why.items.flexible.alt')}
             />
 
