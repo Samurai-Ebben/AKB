@@ -8,16 +8,25 @@ function Header({ t, i18n, currentLanguage }) {
 
   useEffect(() => {
   let lastScrollY = window.scrollY
+  let scrollUpDistance = 0
+  const showHeaderAfter = 220
 
   const handleScroll = () => {
     const currentScrollY = window.scrollY
+    const scrollDifference = currentScrollY - lastScrollY
 
-    if (currentScrollY < 80) {
+    if (currentScrollY < 180) {
       setIsHeaderVisible(true)
-    } else if (currentScrollY > lastScrollY) {
+      scrollUpDistance = 0
+    } else if (scrollDifference > 0) {
       setIsHeaderVisible(false)
-    } else {
-      setIsHeaderVisible(true)
+      scrollUpDistance = 0
+    } else if (scrollDifference < 0) {
+      scrollUpDistance += Math.abs(scrollDifference)
+
+      if (scrollUpDistance > showHeaderAfter) {
+        setIsHeaderVisible(true)
+      }
     }
 
     lastScrollY = currentScrollY
