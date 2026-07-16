@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import akbLogo from '../assets/AKBLogo_transparent.png'
+import LanguageSwitcher from './LanguageSwitcher'
 
 // Top navigation and language switcher.
 // Add future page links here when the website grows.
@@ -53,26 +54,7 @@ function Header({ t, i18n, currentLanguage }) {
           <a href="#about">{t('nav.about')}</a>
         </nav>
 
-        <div className="language-switcher" role="group" aria-label={t('language.label')}>
-          <button
-            type="button"
-            className={currentLanguage === 'en' ? 'active' : ''}
-            aria-label={t('language.english')}
-            aria-pressed={currentLanguage === 'en'}
-            onClick={() => i18n.changeLanguage('en')}
-          >
-            EN
-          </button>
-          <button
-            type="button"
-            className={currentLanguage === 'de' ? 'active' : ''}
-            aria-label={t('language.german')}
-            aria-pressed={currentLanguage === 'de'}
-            onClick={() => i18n.changeLanguage('de')}
-          >
-            DE
-          </button>
-        </div>
+        <LanguageSwitcher t={t} i18n={i18n} currentLanguage={currentLanguage} />
       </div>
     </header>
   )

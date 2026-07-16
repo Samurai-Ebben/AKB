@@ -565,6 +565,12 @@ main section {
   margin: 0;
 }
 
+.footer-actions {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+}
+
 @media (max-width: 700px) {
   .site-header,
   .footer {
@@ -611,6 +617,10 @@ main section {
   .why-card > .fading-image {
     min-height: 240px;
   }
+
+  .footer-actions {
+  flex-direction: column;
+}
 }
 
 @media (max-width: 900px) {

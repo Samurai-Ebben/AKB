@@ -24,7 +24,7 @@ function App() {
         <AboutSection t={t} />
       </main>
 
-      <Footer t={t} />
+      <Footer t={t} i18n={i18n} currentLanguage={currentLanguage} />
     </>
   )
 }
