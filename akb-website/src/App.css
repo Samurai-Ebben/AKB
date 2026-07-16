@@ -571,6 +571,24 @@ main section {
   gap: 1.25rem;
 }
 
+.footer-icon-link {
+  display: grid;
+  width: 2.6rem;
+  height: 2.6rem;
+  place-items: center;
+  color: var(--color-white);
+  background-color: #24282e;
+  border: 1px solid #5a6670;
+  border-radius: 50%;
+}
+
+.footer-icon-link:hover,
+.footer-icon-link:focus-visible {
+  color: var(--color-charcoal);
+  background-color: var(--color-white);
+  border-color: var(--color-white);
+}
+
 @media (max-width: 700px) {
   .site-header,
   .footer {
