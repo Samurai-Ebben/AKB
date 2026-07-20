@@ -10,7 +10,7 @@ import WhyChooseUsSection from './components/WhyChooseUs'
 
 function App() {
   const { t, i18n } = useTranslation()
-  const currentLanguage = i18n.resolvedLanguage?.split('-')[0] || 'en'
+  const currentLanguage = i18n.resolvedLanguage?.split('-')[0] || 'de'
 
   return (
     <>

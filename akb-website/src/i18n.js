@@ -3,9 +3,9 @@ import { initReactI18next } from 'react-i18next'
 import de from './locales/de.json'
 import en from './locales/en.json'
 
-const supportedLanguages = ['en', 'de']
+const supportedLanguages = ['de', 'en']
 const savedLanguage = localStorage.getItem('language')
-const initialLanguage = supportedLanguages.includes(savedLanguage) ? savedLanguage : 'en'
+const initialLanguage = supportedLanguages.includes(savedLanguage) ? savedLanguage : 'de'
 
 i18n.use(initReactI18next).init({
   resources: {
