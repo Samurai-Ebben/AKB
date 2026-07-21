@@ -7,9 +7,8 @@ function Hero({ t }) {
     <section className="hero" id="home">
       <div className="hero-content">
         <p className="eyebrow">{t('hero.eyebrow')}</p>
-        <h1>
-          <img className="hero-logo" src={akbLogo} alt={t('hero.title')} />
-        </h1>
+        <h1 className="visually-hidden">{t('hero.title')}</h1>
+          <img className="hero-logo" src={akbLogo} alt="" />
         <p className="hero-text">{t('hero.description')}</p>
         <a className="primary-button" href="#services">
           {t('hero.button')}
