@@ -1,14 +1,13 @@
 import { useEffect, useState } from 'react'
 import SectionHeading from './SectionHeading'
 import balconyDecking from '../assets/work/balcony-decking.jpeg'
-import technicalInstallation from '../assets/work/technical-installation.jpeg'
-
-import timberConstruction from '../assets/work/timber-construction.jpeg'
 import houseBuilding from '../assets/work/hus_built.jpeg'
+import solarPlacement from '../assets/work/solcelPlacering.jpeg'
+import solarPlacementTwo from '../assets/work/solcelPlacering2.jpeg'
 
 const whyImageGroups = {
   reliable: [balconyDecking, houseBuilding],
-  flexible: [technicalInstallation, timberConstruction],
+  flexible: [solarPlacement, solarPlacementTwo],
 }
 
 function FadingImage({ images, alt }) {
